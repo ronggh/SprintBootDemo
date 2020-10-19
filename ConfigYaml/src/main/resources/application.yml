@@ -1,0 +1,22 @@
+# 开启Spring Boot的Debug模式，默认是false
+debug: true
+server:
+  port: 8081
+spring:
+  application:
+    name: ConfigYaml
+
+# Person对象的值
+#person:
+#  name: hello
+#  age: 18
+#  boss: false
+#  # Date 类型不能写成 2017-12-12
+#  birthDay: 2017/12/12
+#  maps: {k1: v1,k2: 12}
+#  lists:
+#    ‐ lisi
+#    ‐ zhaoliu
+#  dog:
+#    name: 小狗
+#    age: 12

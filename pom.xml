@@ -10,6 +10,8 @@
     <version>1.0</version>
     <modules>
         <module>HelloWorld</module>
+        <module>ConfigYaml</module>
+        <module>LogTest</module>
     </modules>
 
     <!-- Spring Boot和Spring Cloud的版本要匹配，官网可查 -->
@@ -26,9 +28,9 @@
         </dependencies>
     </dependencyManagement>
 
+    <!-- 将应用打包成一个可执行的jar包 -->
     <build>
         <plugins>
-            <!-- 将应用打包成一个可执行的jar包 -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
