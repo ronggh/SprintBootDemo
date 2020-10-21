@@ -14,6 +14,8 @@
         <module>LogTest</module>
         <module>DataByJdbc</module>
         <module>data-druid</module>
+        <module>data-jpa</module>
+        <module>start-principle</module>
     </modules>
 
     <!-- Spring Boot和Spring Cloud的版本要匹配，官网可查 -->

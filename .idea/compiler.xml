@@ -2,16 +2,19 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ConfigYaml" />
         <module name="data-druid" />
+        <module name="data-jpa" />
         <module name="data-mybatis" />
         <module name="DataByJdbc" />
         <module name="HelloWorld" />
         <module name="LogTest" />
+        <module name="start-principle" />
       </profile>
     </annotationProcessing>
   </component>
