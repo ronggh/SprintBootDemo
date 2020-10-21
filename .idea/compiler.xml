@@ -7,6 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ConfigYaml" />
+        <module name="data-druid" />
+        <module name="data-mybatis" />
+        <module name="DataByJdbc" />
         <module name="HelloWorld" />
         <module name="LogTest" />
       </profile>

@@ -12,6 +12,8 @@
         <module>HelloWorld</module>
         <module>ConfigYaml</module>
         <module>LogTest</module>
+        <module>DataByJdbc</module>
+        <module>data-druid</module>
     </modules>
 
     <!-- Spring Boot和Spring Cloud的版本要匹配，官网可查 -->
