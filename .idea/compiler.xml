@@ -15,6 +15,7 @@
         <module name="HelloWorld" />
         <module name="LogTest" />
         <module name="start-principle" />
+        <module name="test-hello-starter" />
       </profile>
     </annotationProcessing>
   </component>

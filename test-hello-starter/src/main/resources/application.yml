@@ -1,0 +1,9 @@
+server:
+  port: 30001
+spring:
+  application:
+    name: test-hello-starter
+alan:
+  hello:
+    from: Mary
+    to: Jerry
