@@ -17,6 +17,8 @@
         <module>data-jpa</module>
         <module>start-principle</module>
         <module>test-hello-starter</module>
+        <module>ActuatorTest</module>
+        <module>CacheTest</module>
     </modules>
 
     <!-- Spring Boot和Spring Cloud的版本要匹配，官网可查 -->
