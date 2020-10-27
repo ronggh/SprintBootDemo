@@ -1,0 +1,24 @@
+server:
+  port: 18001
+spring:
+  application:
+    name: cacehe-redis
+  datasource:
+    url: jdbc:mysql://localhost:3306/springboot_cache?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+  # redis配置
+  redis:
+    host: localhost
+
+#MyBatis配置
+mybatis:
+  configuration:
+    # 数据库中_小写，映射为驼峰命名
+    map-underscore-to-camel-case: true
+# 配置打印日志
+logging:
+  level:
+    # 打印SQL语句
+    cn.alan.mapper: debug

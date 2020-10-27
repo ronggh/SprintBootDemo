@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ActuatorTest" />
+        <module name="cache-redis" />
         <module name="CacheTest" />
         <module name="ConfigYaml" />
         <module name="data-druid" />
