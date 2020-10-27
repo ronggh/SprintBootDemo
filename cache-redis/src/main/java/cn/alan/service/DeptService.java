@@ -3,11 +3,13 @@ package cn.alan.service;
 import cn.alan.entity.Department;
 import cn.alan.mapper.DepartmentMapper;
 
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.Cache;
 
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.Cacheable;
+
 
 import org.springframework.data.redis.cache.RedisCacheManager;
 import org.springframework.stereotype.Service;
@@ -29,7 +31,7 @@ public class DeptService {
      * @param id
      * @return
      */
-    @Cacheable
+    @Cacheable(keyGenerator = "keyGenerator")
     public Department getDeptById(Integer id) {
         System.out.println("查询部门" + id);
         Department department = departmentMapper.getDeptById(id);
@@ -51,6 +53,7 @@ public class DeptService {
         String key = "dept:"+id;
 
         department = deptCache.get(key,Department.class);
+
         System.out.println(department);
         // 如果没有，则查数据库，并将结果放到缓存中
         if (null == department) {
