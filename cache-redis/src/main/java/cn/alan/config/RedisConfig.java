@@ -45,11 +45,12 @@ public class RedisConfig extends CachingConfigurerSupport {
 //    }
 
     /**
-     * 自定义key的生成策略
+     * 自定义key的生成策略,替换掉系统默认的
      *
      * @return
      */
     @Bean
+    @Override
     public KeyGenerator keyGenerator() {
         return new KeyGenerator() {
             @Override
@@ -67,8 +68,8 @@ public class RedisConfig extends CachingConfigurerSupport {
 
 
     /**
-     * 自定义 RedisTemplate<String, Object> 序列化成JSON格式保存到Redis
-     * 用Jackson2JsonRedisSerialize 替换默认的Jdk序列化
+     * 自定义 RedisTemplate<Object, Object> 序列化成JSON格式保存到Redis
+     * GenericJackson2JsonRedisSerializer 替换默认的Jdk序列化
      *
      * @param redisConnectionFactory
      * @return

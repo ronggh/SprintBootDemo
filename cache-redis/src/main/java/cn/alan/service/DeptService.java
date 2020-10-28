@@ -3,7 +3,6 @@ package cn.alan.service;
 import cn.alan.entity.Department;
 import cn.alan.mapper.DepartmentMapper;
 
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.Cache;
 
