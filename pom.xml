@@ -21,6 +21,7 @@
         <module>CacheTest</module>
         <module>cache-redis</module>
         <module>AmqpTest</module>
+        <module>ElasticSearchTest</module>
     </modules>
 
     <!-- Spring Boot和Spring Cloud的版本要匹配，官网可查 -->

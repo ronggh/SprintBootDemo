@@ -16,6 +16,7 @@
         <module name="data-jpa" />
         <module name="data-mybatis" />
         <module name="DataByJdbc" />
+        <module name="ElasticSearchTest" />
         <module name="HelloWorld" />
         <module name="LogTest" />
         <module name="start-principle" />

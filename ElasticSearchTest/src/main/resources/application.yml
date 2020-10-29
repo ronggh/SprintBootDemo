@@ -1,0 +1,13 @@
+server:
+  port: 18010
+spring:
+  application:
+    name: es-test
+  elasticsearch:
+    jest:
+      uris: localhost:9200
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: localhost:9300
+
