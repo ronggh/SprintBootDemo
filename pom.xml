@@ -22,6 +22,8 @@
         <module>cache-redis</module>
         <module>AmqpTest</module>
         <module>ElasticSearchTest</module>
+        <module>TaskTest</module>
+        <module>SecurityTest</module>
     </modules>
 
     <!-- Spring Boot和Spring Cloud的版本要匹配，官网可查 -->

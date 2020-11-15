@@ -19,7 +19,9 @@
         <module name="ElasticSearchTest" />
         <module name="HelloWorld" />
         <module name="LogTest" />
+        <module name="SecurityTest" />
         <module name="start-principle" />
+        <module name="TaskTest" />
         <module name="test-hello-starter" />
       </profile>
     </annotationProcessing>
