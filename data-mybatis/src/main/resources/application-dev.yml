@@ -1,5 +1,4 @@
 spring:
-
   # 配置数据源
   datasource:
     username: root
