@@ -19,6 +19,7 @@
         <module name="ElasticSearchTest" />
         <module name="HelloWorld" />
         <module name="LogTest" />
+        <module name="request-params" />
         <module name="SecurityTest" />
         <module name="start-principle" />
         <module name="TaskTest" />

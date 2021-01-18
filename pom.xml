@@ -24,6 +24,7 @@
         <module>ElasticSearchTest</module>
         <module>TaskTest</module>
         <module>SecurityTest</module>
+        <module>request-params</module>
     </modules>
 
     <!-- Spring Boot和Spring Cloud的版本要匹配，官网可查 -->
