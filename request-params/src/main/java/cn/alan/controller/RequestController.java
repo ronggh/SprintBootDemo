@@ -65,6 +65,7 @@ public class RequestController {
         map.put("brand",brands);
         map.put("path",path);
         return map;
+
     }
 
     /**
