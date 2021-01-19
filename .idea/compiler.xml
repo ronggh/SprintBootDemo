@@ -24,7 +24,11 @@
         <module name="start-principle" />
         <module name="TaskTest" />
         <module name="test-hello-starter" />
+        <module name="thymeleaf-test" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ThymLeafTest" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
