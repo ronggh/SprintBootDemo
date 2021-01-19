@@ -1,0 +1,5 @@
+spring:
+  mvc:
+    contentnegotiation:
+      # 开启浏览器参数内容协商
+      favor-parameter: true
