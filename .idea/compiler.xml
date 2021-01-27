@@ -18,6 +18,7 @@
         <module name="DataByJdbc" />
         <module name="ElasticSearchTest" />
         <module name="HelloWorld" />
+        <module name="interceptor-test" />
         <module name="LogTest" />
         <module name="request-params" />
         <module name="SecurityTest" />

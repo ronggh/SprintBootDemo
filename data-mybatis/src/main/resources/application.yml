@@ -5,3 +5,5 @@ spring:
     active: dev
   application:
     name: data-mybatis
+mybatis-plus:
+  mapper-locations: classpath:mybatis/mapper/*.xml
